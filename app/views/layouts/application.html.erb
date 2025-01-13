@@ -58,11 +58,16 @@
         </div>
         
       </nav>
+      
       <main class="bg-slate-500 w-5/6 p-4 flex-grow">
         main
-        <% (1..100).each do |i| %>
-            <p><%= i%></p>
-        <% end %>
+        <div class ="grid grid-cols-3">
+          <% (1..100).each do |i| %>
+            <div>
+              <%= i%>
+            </div>
+          <% end %>
+        </div>
         <%= yield %>
       </main>
     </div>
