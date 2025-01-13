@@ -1,24 +1,11 @@
-# README
+# TailwindCSS possibilities and opitons
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository aims to recap TailwindCSS features to be easily transposed to other projects
 
-Things you may want to cover:
+* Responsive to screen size
 
-* Ruby version
+* Modals
 
-* System dependencies
+* Smartphone footer (like instagram)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 
