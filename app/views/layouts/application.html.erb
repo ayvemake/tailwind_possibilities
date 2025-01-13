@@ -2,7 +2,7 @@
 <html>
   <head>
     <title><%= content_for(:title) || "Tailwindui" %></title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <%= csrf_meta_tags %>
@@ -61,10 +61,10 @@
       
       <main class="bg-slate-500 w-5/6 p-4 flex-grow">
         main
-        <div class ="grid grid-cols-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <% (1..100).each do |i| %>
             <div>
-              <%= i%>
+              <%= i %>
             </div>
           <% end %>
         </div>
